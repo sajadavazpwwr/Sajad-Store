@@ -73,7 +73,17 @@ Sajad-Store/
 
 ### 📸 Preview
 
-Screenshots and a live demo will be added soon.
+#### 🏠 Home Page
+
+![Sajad Store Home Page](screenshots/home.png)
+
+#### 🛒 Shopping Cart
+
+![Sajad Store Cart](screenshots/cart.png)
+
+### 🚀 Live Demo
+
+[Visit Sajad Store](https://sajadavazpwwr.github.io/Sajad-Store/)
 
 ---
 
