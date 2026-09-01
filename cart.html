@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="tools/css/styleCar.css">
+    <link rel="stylesheet" href="tools/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="div-left">
+            <a href="index.html">
+                <p>
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>Sajad Store
+                </p>
+            </a>
+        </div>
+        <div class="div-midle">
+            <ul>
+                <li>Products</li>
+                <li>Users</li>
+            </ul>
+        </div>
+        <div class="div-right">
+            <a href="cart.html">
+                <p id="total-productCart"><span><i class="fa-solid fa-cart-shopping"></i></span> Cart(0)</p>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="order">
+            <article class="articleOrder dispNone">
+                <button class="close">×</button>
+                <h2 class="textTitleOrder">Order Summary</h2>
+                <div class="divMidleOrder">
+                    <div class="infoOrder">
+                        <p>iPhone</p>
+                        <p>Quantity: 2</p>
+                    </div>
+                </div>
+                <hr>
+                <p class="totalOrder">Total : $ 0</p>
+                <button class="confirm">Confirm Order</button>
+            </article>
+        </section>
+        <section>
+            <h1 class="title">Your Bascet</h1>
+            <article class="templateArticle">
+
+            </article>
+            <div class="total-price">
+                <p id="total-price">Total Price : $0</p>
+            </div>
+            <div class="checkout">
+                <button class="Checkout-btn">Checkout</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="tools/js/cart.js"></script>
+    <script type="module" src="tools/js/storage.js"></script>
+</body>
+
+</html>

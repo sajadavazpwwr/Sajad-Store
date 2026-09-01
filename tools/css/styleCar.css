@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6f8;
+}
+a {
+  color: #000;
+  cursor: pointer;
+}
+/* templateArticle */
+.templateArticle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* title */
+.title {
+  background-color: #00991a98;
+  color: #eae8e8;
+  margin: 10px auto;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+}
+/* products */
+.products-itme-Cart {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin: 5px auto;
+  text-align: center;
+}
+.products-image-Cart {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.products-image-Cart img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.products-btn-Cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.total-price {
+  text-align: center;
+  width: 30%;
+  margin: 20px auto;
+  text-decoration: underline;
+}
+.checkout {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+}
+.Checkout-btn {
+  border: none;
+  padding: 10px;
+  width: 50%;
+  border-radius: 15px;
+  background-color: #00991a98;
+  color: #fff;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.Checkout-btn:hover {
+  background-color: #fff;
+  color: #00991a98;
+  border: 1px solid #000;
+}
+/* order */
+
+.articleOrder {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 30%;
+  top: 200px;
+  text-align: center;
+  background-color: #009919d1;
+  color: #fff;
+  padding: 10px;
+  width: 40%;
+  border-radius: 15px;
+}
+.close {
+  width: 15px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #ff0000;
+  position: absolute;
+  right: 10px;
+}
+.textTitleOrder {
+  margin: 10px auto;
+}
+
+.infoOrder {
+  display: flex;
+  justify-content: space-around;
+  font-size: 80%;
+}
+.totalOrder {
+  margin: 10px auto;
+}
+.confirm {
+  width: 50%;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px auto;
+  color: #eae8e8;
+  background-color: #000dc3;
+}
+.dispNone {
+  display: none;
+}
